@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Control</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/signIn.html">Sign In</a></li>
+                <li><a href="/signUp.html">Sign Up</a></li>
+                <li><a href="/inventory.html">Inventory</a></li>
+                <li><a href="/billing.html">Billing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Inventory Control</h1>
+        <table id="inventoryTable">
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Inventory items will be loaded here -->
+            </tbody>
+        </table>
+        <button id="addItemBtn">Add Item</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Auto AC Workshop. All rights reserved.</p>
+    </footer>
+    <script src="/scripts/app.js"></script>
+</body>
+</html>
